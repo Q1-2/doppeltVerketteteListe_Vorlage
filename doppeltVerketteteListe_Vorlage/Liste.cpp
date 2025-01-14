@@ -55,8 +55,7 @@ void Liste::entfernenEnde()
 
 bool Liste::leer()
 {
-	if (kopfzeiger == nullptr) return true;
-	return false;
+	// ToDo
 }
 
 const Element* Liste::getKopfzeiger()
@@ -81,13 +80,8 @@ void Liste::setFusszeiger(Element* tmp)
 
 void Liste::datenAnzeigen()
 {
-	Element* cursor = kopfzeiger;
 	cout << "Listen-Anfang: ";
-	while (cursor != nullptr)
-	{
-		cout << cursor->getDaten() << " ";
-		cursor = cursor->getNachfolger();
-	}
+	// ToDo
 	cout << "Listen-Ende" << endl;
 }
 
